@@ -6,11 +6,11 @@ spring:
       rule: random
     gateway:
       routes:
-        -id: product-service
+        -id: user-service
         #          uri: http://localhost:8081
-        uri: lb://PRODUCT-SERVICE
+        uri: lb://USER-SERVICE
         predicates:
-          - Path=/product-service/**
+          - Path=/user-service/**
 
 eureka:
   client:

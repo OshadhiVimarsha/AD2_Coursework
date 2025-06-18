@@ -4,8 +4,6 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import jakarta.validation.Valid;
-import lk.ijse.dreamnest_finalproject.dto.HotelDTO;
-import lk.ijse.dreamnest_finalproject.dto.UserDTO;
 import lk.ijse.userservice.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -72,12 +70,12 @@ public class JwtUtil implements Serializable {
     }
 
     //generate token for hotel
-    public String generateToken(HotelDTO hotelDTO) {
+ /*   public String generateToken(HotelDTO hotelDTO) {
         Map<String, Object> claims = new HashMap<>();
         claims.put("name",hotelDTO.getName());
         return doGenerateToken(claims, hotelDTO.getEmail());
     }
-
+*/
     //while creating the token -
     //1. Define  claims of the token, like Issuer, Expiration, Subject, and the ID
     //2. Sign the JWT using the HS512 algorithm and secret key.

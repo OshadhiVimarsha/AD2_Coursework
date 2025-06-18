@@ -1,6 +1,6 @@
 package lk.ijse.userservice.config;
 
-import lk.ijse.dreamnest_finalproject.service.impl.UserServiceImpl;
+import lk.ijse.userservice.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -56,15 +56,6 @@ public class WebSecurityConfig {
                                 "/api/v1/auth/authenticate",
                                 "/api/v1/user/**",
                                 "/api/v1/auth/refreshToken",
-                                "/api/v1/place/**",
-                                "/api/v1/hotel/**",
-                                "/api/v1/hotel/byPlace/{placeId}",
-                                "/api/v1/cab/**",
-                                "/api/v1/room/**",
-                                "/api/v1/room/byHotel/{hotel}",
-                                "/api/v1/roomType/**",
-                                "/api/v1/reviews/**",
-                                "/api/v1/HotelBooking/**",
                                 "/v3/api-docs/**",
                                 "/swagger-ui/**",
                                 "/swagger-ui.html").permitAll()

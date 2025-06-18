@@ -1,6 +1,6 @@
 package lk.ijse.userservice.advicer;
 
-import lk.ijse.dreamnest_finalproject.dto.ResponseDTO;
+import lk.ijse.userservice.dto.ResponseDTO;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
