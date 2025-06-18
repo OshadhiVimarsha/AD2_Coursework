@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de4118d0-8f2c-4403-b15a-6e6a8cb0cd50" name="Changes" comment="add api gateway">
+    <list default="true" id="de4118d0-8f2c-4403-b15a-6e6a8cb0cd50" name="Changes" comment="add user service">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/advicer/AppWideExeptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/advicer/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/config/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/repo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/lk/ijse/userservice/util/VarList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,6 +52,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/CHAMA COMPUTERS/IdeaProjects/3rd Sem/AD2/AD2_Coursework/user-service/src/main/java/lk/ijse/userservice/util",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +63,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CHAMA COMPUTERS\IdeaProjects\3rd Sem\AD2\AD2_Coursework\user-service\src\main\java\lk\ijse\userservice\util" />
+      <recent name="C:\Users\CHAMA COMPUTERS\IdeaProjects\3rd Sem\AD2\AD2_Coursework\user-service\src\main\java\lk\ijse\userservice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.userservice.service.impl" />
+      <recent name="lk.ijse.userservice.dto" />
+      <recent name="lk.ijse.userservice.controller" />
+      <recent name="lk.ijse.userservice.service" />
+      <recent name="lk.ijse.userservice.repo" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -96,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750068532821</updated>
       <workItem from="1750068533891" duration="1967000" />
-      <workItem from="1750071956779" duration="2107000" />
+      <workItem from="1750071956779" duration="2750000" />
+      <workItem from="1750115930108" duration="4180000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project and add eureka server">
       <option name="closed" value="true" />
@@ -114,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750073071507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add user service">
+      <option name="closed" value="true" />
+      <created>1750074109220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750074109220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project and add eureka server" />
     <MESSAGE value="add api gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="add api gateway" />
+    <MESSAGE value="add user service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user service" />
   </component>
 </project>
